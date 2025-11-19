@@ -1,0 +1,43 @@
+/* css reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background: plum;
+  height: 100px;
+}
+
+main {
+  background: lightblue;
+  min-height: 200px;
+}
+
+footer {
+  background: lime;
+  height: 100px;
+}
+
+section {
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.fore {
+  background: white;
+}
+
+h2 {
+  border: 1px solid black;
+}
+
+h1 {
+  border: 1px solid black;
+}
+
+button {
+  border: 1px solid black;
+}

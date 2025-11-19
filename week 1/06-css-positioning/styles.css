@@ -1,0 +1,59 @@
+/* css reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.image-container {
+  background: #eee;
+  height: 300px;
+  width: 500px;
+  position: relative;
+  margin: 20px;
+}
+
+h2 {
+  color: rgb(8, 0, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  padding: 0px;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
+.cookie-notice {
+  background: #eee;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 800px;
+}
+
+Button {
+  background: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+header {
+  background: #eee;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 800px;
+  z-index: 9999;
+}

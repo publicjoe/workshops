@@ -1,0 +1,46 @@
+/* css reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: peachpuff;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  border: 5px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main {
+  border: 5px solid green;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+section {
+  border: 3px solid purple;
+}
+
+footer {
+  border: 5px solid orange;
+}
+
+nav {
+  border: 3px solid lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+a {
+  font-weight: bold;
+  margin: 5px;
+}

@@ -1,0 +1,30 @@
+/* css reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.box {
+  background: #c70505;
+}
+
+.container div:nth-child(2) {
+  background: lightblue;
+}
+
+.container div:last-child {
+  background: lightgreen;
+}
+
+nav li:first-child a:hover {
+  color: red;
+}
+
+nav li:nth-child(2) a:hover {
+  color: pink;
+}
+
+nav li:last-child a:hover {
+  color: green;
+}

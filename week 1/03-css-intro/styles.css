@@ -1,0 +1,42 @@
+/* css reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  padding: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.story-body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+}
+
+.publisher {
+  font-weight: bold;
+  color: red;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.links a {
+  color: blue;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.links li {
+  margin-bottom: 5px;
+  list-style: none;
+}
