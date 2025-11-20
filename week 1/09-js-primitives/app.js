@@ -52,7 +52,7 @@ console.log(isAEqualToB);
 
 console.log(`Is ${a} greater than ${b}?`, isAGreaterThanB);
 console.log(`Is ${a} less than ${b}?`, isALessThanB);
-console.log(`Is ${a} equal to ${b}?`, isAEqualToB);
+console.log(`Is ${a} equal to ${b}?`, isAEqualToB);3
 
 let weather = "sunny";
 let today = "Monday";
